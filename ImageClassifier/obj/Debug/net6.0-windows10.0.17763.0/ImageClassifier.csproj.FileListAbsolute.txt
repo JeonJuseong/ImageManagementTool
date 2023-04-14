@@ -17,3 +17,41 @@ D:\ImageClassifier\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageCla
 D:\ImageClassifier\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\refint\ImageClassifier.dll
 D:\ImageClassifier\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.genruntimeconfig.cache
 D:\ImageClassifier\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ref\ImageClassifier.dll
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.exe
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.deps.json
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.runtimeconfig.json
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.dll
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\WinRT.Runtime.dll
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.AssemblyReference.cache
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.Form1.resources
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.Properties.Resources.resources
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.GenerateResource.cache
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.AssemblyInfoInputs.cache
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.AssemblyInfo.cs
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.CoreCompileInputs.cache
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.CopyComplete
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.dll
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\refint\ImageClassifier.dll
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.genruntimeconfig.cache
+C:\Users\Jeon\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ref\ImageClassifier.dll
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.exe
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.deps.json
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.runtimeconfig.json
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\ImageClassifier.dll
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\Microsoft.Windows.SDK.NET.dll
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\bin\Debug\net6.0-windows10.0.17763.0\WinRT.Runtime.dll
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.AssemblyReference.cache
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.Form1.resources
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.Properties.Resources.resources
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.GenerateResource.cache
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.AssemblyInfoInputs.cache
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.AssemblyInfo.cs
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.CoreCompileInputs.cache
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.csproj.CopyComplete
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.dll
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\refint\ImageClassifier.dll
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ImageClassifier.genruntimeconfig.cache
+D:\OneDrive - 계명대학교\프로젝트\ImageManagementTool\ImageClassifier\obj\Debug\net6.0-windows10.0.17763.0\ref\ImageClassifier.dll

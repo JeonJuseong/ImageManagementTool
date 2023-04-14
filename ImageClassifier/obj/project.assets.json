@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeon\\OneDrive - 계명대학교\\프로젝트\\ImageManagementTool\\ImageClassifier\\ImageClassifier.csproj",
+      "projectUniqueName": "D:\\OneDrive - 계명대학교\\프로젝트\\ImageManagementTool\\ImageClassifier\\ImageClassifier.csproj",
       "projectName": "ImageClassifier",
-      "projectPath": "C:\\Users\\Jeon\\OneDrive - 계명대학교\\프로젝트\\ImageManagementTool\\ImageClassifier\\ImageClassifier.csproj",
+      "projectPath": "D:\\OneDrive - 계명대학교\\프로젝트\\ImageManagementTool\\ImageClassifier\\ImageClassifier.csproj",
       "packagesPath": "C:\\Users\\Jeon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jeon\\OneDrive - 계명대학교\\프로젝트\\ImageManagementTool\\ImageClassifier\\obj\\",
+      "outputPath": "D:\\OneDrive - 계명대학교\\프로젝트\\ImageManagementTool\\ImageClassifier\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jeon\\AppData\\Roaming\\NuGet\\NuGet.Config",

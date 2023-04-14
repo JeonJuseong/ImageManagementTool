@@ -1,4 +1,4 @@
-using System.Reflection.Metadata.Ecma335;
+using System.Text;
 
 namespace ImageClassifier
 {
@@ -25,7 +25,7 @@ namespace ImageClassifier
             extensionLabel.Text = fileNameViewer.SelectedRows[0].Cells[1].Value.ToString();
 
             thumbnailViewr.Image = Image.FromFile(filepathLabel.Text + "\\" + imageNameBox.Text + extensionLabel.Text);
-            thumbnailViewr.SizeMode = PictureBoxSizeMode.StretchImage;
+            thumbnailViewr.SizeMode = PictureBoxSizeMode.Zoom;
         }
 
         private void loadImageButton_Click(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace ImageClassifier
 
             if (fileNameViewer.Rows.Count == 0)
             {
-                if(thumbnailViewr.Image != null)
+                if (thumbnailViewr.Image != null)
                 {
                     thumbnailViewr.Image.Dispose();
                     thumbnailViewr.Image = null;
@@ -71,7 +71,7 @@ namespace ImageClassifier
         private void modifyFilenameButton_Click(object sender, EventArgs e)
         {
 
-            if(fileNameViewer.Rows.Count == 0 || imageNameBox.Text == string.Empty)
+            if (fileNameViewer.Rows.Count == 0 || imageNameBox.Text == string.Empty)
             {
                 MessageBox.Show("There is no image File!", "Fail", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -103,7 +103,47 @@ namespace ImageClassifier
                 loadSelectedImagae();
             }
             catch { }
-           
+
+        }
+
+        public string str2hex(string strData)
+        {
+            string resultHex = string.Empty;
+            byte[] arr_byteStr = Encoding.Default.GetBytes(strData);
+
+            foreach (byte byteStr in arr_byteStr)
+                resultHex += string.Format("{0:X2}", byteStr);
+
+            return resultHex;
+        }
+
+
+        //metadata생성할 파일을 제작한다.
+        private void readMetadataButton_Click(object sender, EventArgs e)
+        {
+            //exception handling - file does not exist
+            if (fileNameViewer.Rows.Count == 0)
+            {
+                MessageBox.Show("File does not exist!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            string filename;
+            byte[] bytestr;
+
+            //create test.bin file
+            FileStream fs = new FileStream(filepathLabel.Text + "\\test.bin", FileMode.Create);
+
+            //write
+            for (int i = 0; i < fileNameViewer.Rows.Count; i++)
+            {
+                filename = "filename: " + fileNameViewer.Rows[i].Cells[0].Value.ToString() + "\n";
+                bytestr = Encoding.UTF8.GetBytes(filename);
+                fs.Write(bytestr);
+            }
+
+            fs.Close();
+
         }
     }
 }
