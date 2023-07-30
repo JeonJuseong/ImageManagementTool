@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yTG9VjCNYW6+8rJRaW+DDlmMtnBbErKK3TSuvOflTMzOOcETlRwMjCE6v/sPA2DU1Ur/CKc87W7CJAsnsVKN3Q==",
+  "dgSpecHash": "Y8NzpDQ2DeT/Gdjk4LLXC5R5qwHXsM3XcXtWou+mYmUo2AreXnuHPVkDZp6CmmX3wQ+ru6R8oXWCikyYYZUnOg==",
   "success": true,
   "projectFilePath": "D:\\OneDrive - 계명대학교\\프로젝트\\ImageManagementTool\\ImageClassifier\\ImageClassifier.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jeon\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.26\\microsoft.windows.sdk.net.ref.10.0.17763.26.nupkg.sha512"
+    "C:\\Users\\Jeon\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.29\\microsoft.windows.sdk.net.ref.10.0.17763.29.nupkg.sha512"
   ],
   "logs": []
 }

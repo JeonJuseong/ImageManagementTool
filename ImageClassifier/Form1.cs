@@ -16,23 +16,10 @@ namespace ImageClassifier
             fileNameViewer.Columns[1].Name = "Extension";
         }
 
-        private void loadSelectedImagae()
-        {
-            if (thumbnailViewr.Image != null)
-                thumbnailViewr.Image.Dispose();
-
-            imageNameBox.Text = fileNameViewer.SelectedRows[0].Cells[0].Value.ToString();
-            extensionLabel.Text = fileNameViewer.SelectedRows[0].Cells[1].Value.ToString();
-
-            thumbnailViewr.Image = Image.FromFile(filepathLabel.Text + "\\" + imageNameBox.Text + extensionLabel.Text);
-            thumbnailViewr.SizeMode = PictureBoxSizeMode.Zoom;
-        }
-
         private void loadImageButton_Click(object sender, EventArgs e)
         {
-            String FolderName = String.Empty;  //FolderName에 폴더명을 입력
-
             FolderBrowserDialog fbd = new FolderBrowserDialog();
+            string FolderName;
             if (fbd.ShowDialog() == DialogResult.OK)
             {
                 FolderName = fbd.SelectedPath;
@@ -40,10 +27,10 @@ namespace ImageClassifier
             }
             else return;
 
-            System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(FolderName);
+            DirectoryInfo di = new DirectoryInfo(FolderName);
 
             fileNameViewer.Rows.Clear();
-            foreach (System.IO.FileInfo File in di.GetFiles())
+            foreach (FileInfo File in di.GetFiles())
             {
                 if (File.Extension.ToLower().CompareTo(".jpg") == 0 || File.Extension.ToLower().CompareTo(".png") == 0)
                 {
@@ -65,7 +52,8 @@ namespace ImageClassifier
                 return;
             }
 
-            loadSelectedImagae();
+            Utility util = new Utility();
+            util.LoadSelectedImagae(fileNameViewer, thumbnailViewr, filepathLabel, extensionLabel, imageNameBox);
         }
 
         private void modifyFilenameButton_Click(object sender, EventArgs e)
@@ -100,10 +88,11 @@ namespace ImageClassifier
         {
             try
             {
-                loadSelectedImagae();
+                Utility util = new();
+                util.LoadSelectedImagae(fileNameViewer, thumbnailViewr, filepathLabel, extensionLabel, imageNameBox);
+                util.ClearTextBox(characterBox, seriesBox, guitarBox);
             }
             catch { }
-
         }
 
         public string str2hex(string strData)
